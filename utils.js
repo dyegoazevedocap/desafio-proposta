@@ -13,8 +13,22 @@ const validateProposalId = (proposal) => {
     var sumEven = 0;
     var sumOdd = 0;
 
+// Identifica se é par ou impar
+    Parametro(8);
+    function Parametro(arrNumbers) {
+        for (let i = 0; i <= arrNumbers; i++){
+            if ( i % 2 === 0)
+        }
+    }
+
+    // Realiza a soma dos pares e a subtração dos impares
+    const somar = (sumEven, sumOdd) => sumEven + sumOdd
+    const Subtrair = ( sumEven, sumOdd) => sumEven - sumOdd
+    console.log(somar(2,6));
+    console.log(subtrair(0,2));
+
     console.log("Add the even and odd values");
-    arrNumbers.forEach(element => {
+    arrNumbers.forEach( element => {
         if (element % 2 === 0) {
             sumEven += element;
         } else {
